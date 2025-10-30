@@ -1,3 +1,8 @@
 h2, p{
-    letter-spacing: -2px;
+    color: #1d1d1d;
+    letter-spacing: -1px;
+}
+
+section{
+    padding: 100px 20px;
 }
