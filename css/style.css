@@ -231,7 +231,8 @@ header{
 /* section_4 end */
 
 footer{
-    padding: 30px 53px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: #BD1A21;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -239,6 +240,8 @@ footer{
 
 .footer_logo{
     width: 120px;
+    margin: 0 auto 30px;
+    opacity: 0.2;
 }
 
 footer a,
@@ -247,12 +250,49 @@ p,
     color: #fff;
 }
 
-.footer_logo{
-    margin: 0 auto;
-    opacity: 0.2;
+footer a{
+    font-size: 12px;
+    font-weight: 400;
 }
 
 .name_f,
 .number_f{
+    width: 221px;
     display: flex;
+    justify-content: space-between;
+    margin: 0 auto 15px;
 }
+
+.email_f{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.adress{
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sns_wrap{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin: 35px auto 45px;
+}
+
+.copyright{
+    font-size: 11px;
+    font-weight: 400;
+    opacity: 0.5;
+    text-align: center;
+}
+
