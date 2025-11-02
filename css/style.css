@@ -51,7 +51,17 @@ header{
     position: absolute;
     bottom: 15px;
     left: 50%;
-    transform: translateX(-50%);
+    animation: scrollevent 2s ease-in-out infinite;
+}
+
+@keyframes scrollevent {
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-10px);
+    }
 }
 /* section_1 end */
 
@@ -230,6 +240,48 @@ header{
 }
 /* section_4 end */
 
+.section_5{
+    background-color: #F4F4F4;
+}
+
+.section_5 h2{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    width: 353px;
+    height: 50px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+.contact_5_2{
+    display: flex;
+    gap: 16px;
+}
+
+.contact_5_2,
+.contact_5_3{
+    margin-top: 10px;
+}
+
+button{
+    width: 353px;
+    height: 50px;
+    background-color: #BD1A21;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+}
+/* section_5 end */
+
 footer{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -241,7 +293,7 @@ footer{
 .footer_logo{
     width: 120px;
     margin: 0 auto 30px;
-    opacity: 0.2;
+    opacity: 0.4;
 }
 
 footer a,
@@ -251,13 +303,13 @@ p,
 }
 
 footer a{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
 }
 
 .name_f,
 .number_f{
-    width: 221px;
+    width: 247px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto 15px;
@@ -275,7 +327,7 @@ footer a{
 }
 
 footer p{
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 700;
     line-height: 18px;
     text-align: center;

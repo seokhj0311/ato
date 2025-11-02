@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <form>
+        <input type="text" placeholder="검색">
+        <input type="submit" value="검색">
+    </form>
+
+    <!-- *form
+    => 사용자가 입력한 글의 형식을 관리하는 태그
+    => 사용자로부터 입력 받은 데이터를 서버로 전송시키는 역할
+    => 모든 입력 양식 태그의 부모 역할 -->
+
+    <!-- *input
+    => 유저가 내용을 입력할 수 있는 태그
+    => 단독 태그
+    => inline 요소
+    => title는 굳이 필요한 건 아님(placeholder가 안 먹힐 때)-->
+
+
+    <input type="text" value="내용입력">
+    <input type="email" placeholder="이메일" title="이메일">
+    <br><br>
+
+    <input type="button" value="로그인">
+    <input type="submit" value="검색">
+    <br><br>
+
+    <input type="checkbox" id="choice_1">
+    <label for="choice_1">선택1</label>
+    <!-- => checkbox 선택 시 체크가 되지만 글자를 클릭했을 때도 체크되게 만들어줌
+    => 반드시 input 태그에 id 선택자 활용하여 label 태그와 for 속성에 id 값 지정 -->
+
+    <input type="checkbox" id="choice_2">
+    <label for="choice_2">선택2</label>
+    <br><br><br>
+
+    <input type="radio" id="tab_1" name="tab">
+    <label for="tab_1">선택1</label>
+    <!-- => checkbox % label 태그 활용 동일하며,
+    radio 값은 단독 선택만 가능
+    => name 속성을 활용하여 같은 그룹으로 선택할 input에 이름 지정 할 수 있음 -->
+
+    <input type="radio" id="tab_2" name="tab">
+    <label for="tab_2">선택2</label>
+    <br><br>
+
+    <input type="date">
+    <!-- => 날짜 지정 -->
+
+    <input type="datetime">
+    <input type="week">
+    <br><br>
+
+    <input type="color">
+    <input type="file">
+</body>
+</html>
