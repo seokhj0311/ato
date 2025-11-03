@@ -50,6 +50,10 @@ header{
     margin-bottom: 30px;
 }
 
+.close_btn{
+    color: #1d1d1d;
+}
+
 .line{
     width: 318px;
     height: 2px;
