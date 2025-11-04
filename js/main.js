@@ -23,7 +23,29 @@ $(document).ready(function(){
         });
 
         $("body").css({
-            overflowY: "unset"
+            overflowY: "unset",
+            "-webkit-overflow-x": "hidden",
+            "-o-overflow-x": "hidden",
+            "-moz-overflow-x": "hidden",
+            "-ms-overflow-x": "hidden"
+        });
+    });
+
+    $(".text_5_1").focus(function () {
+        $(".text_1").css({
+            display: "none"
+        });
+    });
+
+    $(".text_5_2").focus(function () {
+        $(".text_2").css({
+            display: "none"
+        });
+    });
+
+    $(".text_5_3").focus(function () {
+        $(".text_3").css({
+            display: "none"
         });
     });
 
