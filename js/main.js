@@ -8,6 +8,17 @@ $(document).ready(function(){
     // });
 
     $(".ham_menu").click(function(){
+        // $(".sub_menu_wrap").css({
+        //     right: 0
+        // });
+
+        $("body").css({
+            position: "fixed",
+            top: 0,
+            left: "50%",
+            transform: "translateX(-50%)"
+        });
+
         $(".sub_menu_wrap").css({
             right: 0
         });
@@ -21,6 +32,10 @@ $(document).ready(function(){
         $(".sub_menu_wrap").css({
             right: '-100%'
         });
+    });
+
+    $(".wrap").css({
+        overflow: "hidden"
     });
 
     $(".text_5_1").focus(function () {
