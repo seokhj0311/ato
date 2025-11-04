@@ -19,6 +19,10 @@ $(document).ready(function(){
             left: "50%",
             transform: "translateX(-50%)"
         });
+
+        $("header").css({
+            padding: 0
+        });
         
         $(".sub_menu_wrap").css({
             right: 0
@@ -32,6 +36,10 @@ $(document).ready(function(){
 
         $("body").css({
             position: "relative"
+        });
+
+        $("header").css({
+            padding: "0 19px"
         });
     });
 
