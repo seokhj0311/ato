@@ -6,31 +6,32 @@ $(document).ready(function(){
     // $(".close_btn").click(function(){
     //     $(".sub_menu_wrap").removeClass("active");
     // });
-
+    
+    
     $(".ham_menu").click(function(){
         // $(".sub_menu_wrap").css({
-        //     right: 0
-        // });
-
+            //     right: 0
+            // });
+            
         $("body").css({
             position: "fixed",
             top: 0,
             left: "50%",
             transform: "translateX(-50%)"
         });
-
+        
         $(".sub_menu_wrap").css({
             right: 0
-        });
-
-        $(".wrap").css({
-            position: "static"
         });
     });
 
     $(".close_btn").click(function(){
         $(".sub_menu_wrap").css({
             right: '-100%'
+        });
+
+        $("body").css({
+            position: "relative"
         });
     });
 
