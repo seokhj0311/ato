@@ -24,10 +24,10 @@ $(document).ready(function(){
 
         $("body").css({
             overflowY: "unset",
-            "-webkit-overflow-x": "hidden",
-            "-o-overflow-x": "hidden",
-            "-moz-overflow-x": "hidden",
-            "-ms-overflow-x": "hidden"
+            "-webkit-overflow-y": "hidden",
+            "-o-overflow-y": "hidden",
+            "-moz-overflow-y": "hidden",
+            "-ms-overflow-y": "hidden"
         });
     });
 
