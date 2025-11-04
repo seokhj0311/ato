@@ -6,6 +6,10 @@
     max-width: 393px;
     margin: 0 auto;
     overflow-x: hidden;
+    -webkit-overflow-x: hidden;
+    -o-overflow-x: hidden;
+    -moz-overflow-x: hidden;
+    -ms-overflow-x: hidden;
 }
 
 header{
@@ -48,10 +52,6 @@ header{
     font-size: 26px;
     font-weight: 700;
     margin-bottom: 30px;
-}
-
-.close_btn{
-    color: #1d1d1d;
 }
 
 .line{
@@ -317,6 +317,28 @@ input{
     box-sizing: border-box;
     color: #1d1d1d;
 }
+
+.contact,
+.text_con_5_1,
+.text_con_5_2{
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #706f6f;
+}
+
+.text span{
+    font-size: 18px;
+    color: #BD1A21;
+    position: relative;
+    top: -4px;
+    left: 2px;
+}
+
 
 textarea{
     all: unset;
