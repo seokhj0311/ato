@@ -11,15 +11,20 @@ $(document).ready(function(){
         $(".sub_menu_wrap").css({
             right: 0
         });
+
+        $("body").css({
+            overflowY: "hidden"
+        });
     });
 
     $(".close_btn").click(function(){
         $(".sub_menu_wrap").css({
             right: '-100%'
         });
+
+        $("body").css({
+            overflowY: "none"
+        });
     });
-
-
-
 
 });
