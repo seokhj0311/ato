@@ -21,14 +21,6 @@ $(document).ready(function(){
         $(".sub_menu_wrap").css({
             right: '-100%'
         });
-
-        $("body").css({
-            overflowY: "unset",
-            "-webkit-overflow-y": "hidden",
-            "-o-overflow-y": "hidden",
-            "-moz-overflow-y": "hidden",
-            "-ms-overflow-y": "hidden"
-        });
     });
 
     $(".text_5_1").focus(function () {
