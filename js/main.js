@@ -23,7 +23,7 @@ $(document).ready(function(){
         });
 
         $("body").css({
-            overflowY: "none"
+            overflowY: "unset"
         });
     });
 
