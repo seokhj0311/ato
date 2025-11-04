@@ -12,8 +12,8 @@ $(document).ready(function(){
             right: 0
         });
 
-        $("body").css({
-            overflowY: "hidden"
+        $(".wrap").css({
+            position: "static"
         });
     });
 

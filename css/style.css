@@ -5,7 +5,10 @@
     width: 100%;
     max-width: 393px;
     margin: 0 auto;
-    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 header{
