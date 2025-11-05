@@ -2,7 +2,7 @@
 @import url(common.css);
 
 .wrap{
-    max-width: 393px;
+    max-width: 450px;
     width: 100%;
     margin: 0 auto;
 }
@@ -25,7 +25,7 @@ header{
     right: -100%;
     z-index: 20;
     transition: 0.3s;
-    /* padding: 30px 20px; */
+    padding: 30px 20px;
     background-color: #F2F2F2;
     cursor: pointer;
 }
