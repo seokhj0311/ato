@@ -2,12 +2,13 @@
 @import url(common.css);
 
 .wrap{
-    width: 100%;
     max-width: 393px;
+    width: 100%;
     margin: 0 auto;
 }
 
 header{
+    width: 100%;
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -24,7 +25,7 @@ header{
     right: -100%;
     z-index: 20;
     transition: 0.3s;
-    padding: 30px 20px;
+    /* padding: 30px 20px; */
     background-color: #F2F2F2;
     cursor: pointer;
 }

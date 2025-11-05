@@ -3,6 +3,6 @@ h2, p, a{
     letter-spacing: -1px;
 }
 
-section{
+section:not(.section_1){
     padding: 100px 20px;
 }
