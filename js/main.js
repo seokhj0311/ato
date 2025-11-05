@@ -35,9 +35,9 @@ $(document).ready(function(){
         });
     });
 
-    $(".wrap").css({
-        overflow: "hidden"
-    });
+    // $(".wrap").css({
+    //     overflow: "hidden"
+    // });
 
     $(".text_5_1").focus(function () {
         $(".text_1").css({
