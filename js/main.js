@@ -14,6 +14,7 @@ $(document).ready(function(){
             // });
             
         $("body").css({
+            width: "100%",
             position: "fixed",
             top: 0,
             left: "50%",
