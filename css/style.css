@@ -30,7 +30,7 @@ header{
     top: 0;
     right: -100%;
     z-index: 20;
-    transition: 10s;
+    transition: 0.3s;
     padding: 30px 20px;
     background-color: #F2F2F2;
     cursor: pointer;
